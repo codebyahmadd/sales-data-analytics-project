@@ -1,0 +1,11 @@
+OrderID,Product,Category,Quantity,Price
+1,Laptop,Electronics,2,800
+2,Mouse,Electronics,5,20
+3,Keyboard,Electronics,3,50
+4,Chair,Furniture,4,120
+5,Table,Furniture,2,300
+6,Phone,Electronics,3,600
+7,Notebook,Stationery,10,5
+8,Pen,Stationery,20,2
+9,Monitor,Electronics,2,250
+10,Desk,Furniture,1,400

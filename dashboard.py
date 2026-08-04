@@ -1,4 +1,3 @@
-from datetime import datetime
 import streamlit as st
 import pandas as pd
 st.set_page_config(
@@ -72,23 +71,13 @@ st.markdown(
         color: white;
     ">
         <h1>📊 Sales Analytics Dashboard</h1>
-        <h3>Real-Time Business Insights & Performance Tracking</h3>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown(
-    f"""
-    <div style="text-align:right; color:#A9A9A9;">
-        📅 {datetime.now().strftime("%d %B %Y")} <br>
-        ⏰ {datetime.now().strftime("%I:%M %p")}
+        <h3>Business Insights & Performance Analysis</h3>
     </div>
     """,
     unsafe_allow_html=True
 )
 
 df = pd.read_csv("sales_data.csv")
-st.write(df.columns)
 st.sidebar.subheader("🔍 Filters")
 search_product = st.sidebar.text_input(
     "🔎 Search Product"

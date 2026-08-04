@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Sales Data Analytics Dashboard Banner">
+</p>
+
 # 📊 Sales Data Analytics Project
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
